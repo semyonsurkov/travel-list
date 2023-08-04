@@ -23,6 +23,7 @@ body {
   color: #5a3e2b;
   font-family: 'Quicksand';
   font-weight: 500;
+  background-color: #5a3e2b;
 }
 
 .app {
@@ -81,13 +82,12 @@ input {
   background-color: #5a3e2b;
   color: #ffebb3;
   padding: 4rem 0;
-
+  grid-row: 3;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   gap: 3.2rem;
   align-items: center;
-  height: 100vh;
 }
 
 .actions button,
@@ -136,4 +136,8 @@ input[type='checkbox'] {
   text-align: center;
   font-weight: 700;
   padding: 3.2rem 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
